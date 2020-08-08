@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>GrovePiApplication.Samples.Sensors.UltrasonicProximitySensor</StartupObject>
+    <StartupObject>GrovePiApplication.Samples.Sensors.LedBar</StartupObject>
     <RootNamespace>GrovePiApplication</RootNamespace>
   </PropertyGroup>
 
