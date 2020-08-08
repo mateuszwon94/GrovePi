@@ -7,7 +7,7 @@ using Iot.Device.GrovePiDevice;
 using Iot.Device.GrovePiDevice.Models;
 using Iot.Device.GrovePiDevice.Sensors;
 
-namespace GrovePiApplication.Samples {
+namespace GrovePiApplication.Samples.Sensors {
     class BlinkingLED {
         static void Main(string[] args) {
             I2cConnectionSettings i2CConnectionSettings = new I2cConnectionSettings(1, GrovePi.DefaultI2cAddress);

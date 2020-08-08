@@ -12,7 +12,7 @@ using Iot.Device.GrovePiDevice.Models;
 using Iot.Device.GrovePiDevice.Sensors;
 using Iot.Device.Tm1637;
 
-namespace GrovePiApplication.Samples {
+namespace GrovePiApplication.Samples.Sensors {
     class SegmentDisplay {
         static void Main(string[] args) {
             // Connected directly to GPIO pins

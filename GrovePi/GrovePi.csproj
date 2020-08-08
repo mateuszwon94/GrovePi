@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <StartupObject>GrovePiApplication.Samples.SegmentDisplay</StartupObject>
+    <StartupObject>GrovePiApplication.Samples.Sensors.UltrasonicProximitySensor</StartupObject>
     <RootNamespace>GrovePiApplication</RootNamespace>
   </PropertyGroup>
 
@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <Folder Include="Drivers\" />
+    <Folder Include="Samples\Complex\" />
   </ItemGroup>
 
 </Project>
