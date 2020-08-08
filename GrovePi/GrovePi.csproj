@@ -12,4 +12,8 @@
     <PackageReference Include="System.Device.Gpio" Version="1.1.0-prerelease.20276.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Drivers\" />
+  </ItemGroup>
+
 </Project>
